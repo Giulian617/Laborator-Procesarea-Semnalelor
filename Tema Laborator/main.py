@@ -192,7 +192,6 @@ def ex2(X, Q_luminance, Q_chrominance):
     print('Resultate exercitiul 2:')
     print(f'- Componente în frecvență: {y_nnz}' +
           f'\n- Componente în frecvență după cuantizare: {y_jpeg_nnz}')
-    huffman_encoding(zig_zag_vec(X))
 
 
 def ex3_black_and_white(X, mse_threshold, Q):
